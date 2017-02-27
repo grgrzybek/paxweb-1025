@@ -106,6 +106,7 @@
     <!-- for example the jetty-requestlog.xml file adds the          -->
     <!-- RequestLogHandler after the default handler                 -->
     <!-- =========================================================== -->
+    <!--
     <Set name="handler">
       <New id="Handlers" class="org.eclipse.jetty.server.handler.HandlerCollection">
         <Set name="handlers">
@@ -120,6 +121,7 @@
         </Set>
       </New>
     </Set>
+    -->
 
     <!-- =========================================================== -->
     <!-- extra server options                                        -->
